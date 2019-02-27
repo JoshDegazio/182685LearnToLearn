@@ -8,7 +8,7 @@
  */
 function onOpen() {
   var spreadsheet = SpreadsheetApp.getActive();
-  var menuItems = [,
+  var menuItems = [
     {name: 'Add...', functionName: 'addition_'}
   ];
   spreadsheet.addMenu('Opertions', menuItems);
